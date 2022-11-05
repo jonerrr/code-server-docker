@@ -4,4 +4,4 @@ services:
   code-server:
     container_name: code-server
     restart: unless-stopped
-    build: .
+    image: j0ner/code-server:latest
